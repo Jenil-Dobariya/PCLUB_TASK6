@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PCLUB_TASK6/static/css/main.23f56a8a.css",
+    "main.js": "/PCLUB_TASK6/static/js/main.bd9239e6.js",
+    "index.html": "/PCLUB_TASK6/index.html",
+    "main.23f56a8a.css.map": "/PCLUB_TASK6/static/css/main.23f56a8a.css.map",
+    "main.bd9239e6.js.map": "/PCLUB_TASK6/static/js/main.bd9239e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23f56a8a.css",
+    "static/js/main.bd9239e6.js"
+  ]
+}

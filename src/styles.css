@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+}
+
+body {
+  /* background-image: url("https://img.freepik.com/free-vector/perspective-hexagon-grid-pattern_1409-1829.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; */
+  /* background-position: center center; */
+  background-color: #DDE6ED;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

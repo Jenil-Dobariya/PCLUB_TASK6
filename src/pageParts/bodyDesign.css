@@ -1,0 +1,77 @@
+.course {
+  animation: fadeIn 0.5s ease-in-out;
+  display: flex;
+  gap: 4%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2% 4% 2% 4%;
+}
+
+.child {
+  width: 14%;
+  height: 180px;
+  background-color: #cfd8df;
+  margin: 2% 0% 2% 0%;
+  padding: 1% 1% 1% 1%;
+  border: solid 0 #9DB2BF;
+  border-radius: 15px;
+  box-shadow: 5px 5px 7px 2px #333;
+}
+
+.child:hover{
+  background-color: #9DB2BF;
+}
+
+.child:active{
+  background-color: #9DB2BF;
+}
+
+.child p {
+  color: black;
+}
+
+.child h3 {
+  color: black;
+}
+
+.links {
+  animation: fadeIn 0.5s ease-in-out;
+  width: 100%;
+  background-color: #9DB2BF;
+  border: solid 0 rgb(22, 22, 22);
+  border-radius: 20px;
+  margin-top: 2%;
+}
+
+
+.slide-down {
+  transform: translateY(100%);
+  opacity: 0;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 830px) {
+  .child {
+    width: 26%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .course {
+    flex-direction: column;
+    gap: 0%;
+    align-content: center;
+    justify-content: center;
+  }
+  .child {
+    width: 70%;
+    height: 150px;
+    margin: 2% 0% 2% 0%;
+    padding: 1% 4% 1% 4%;
+  }
+}
